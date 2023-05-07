@@ -4,14 +4,14 @@ package ent
 
 import (
 	"context"
-	"entdemo/ent/predicate"
-	"entdemo/ent/user"
 	"errors"
 	"fmt"
 
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent/predicate"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent/user"
 )
 
 // UserUpdate is the builder for updating User entities.

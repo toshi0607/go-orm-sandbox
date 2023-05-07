@@ -4,7 +4,6 @@ package ent
 
 import (
 	"context"
-	"entdemo/ent/user"
 	"errors"
 	"fmt"
 	"reflect"
@@ -13,6 +12,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent/user"
 )
 
 // ent aliases to avoid import conflicts in user's code.

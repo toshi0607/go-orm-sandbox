@@ -1,4 +1,4 @@
-module entdemo
+module github.com/toshi0607/go-orm-sandbox/ent/entdemo
 
 go 1.20
 

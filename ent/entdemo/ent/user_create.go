@@ -4,12 +4,12 @@ package ent
 
 import (
 	"context"
-	"entdemo/ent/user"
 	"errors"
 	"fmt"
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent/user"
 )
 
 // UserCreate is the builder for creating a User entity.

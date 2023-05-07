@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"entdemo/ent"
-	"entdemo/ent/user"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent/user"
 
 	_ "github.com/mattn/go-sqlite3"
 )

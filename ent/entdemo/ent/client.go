@@ -8,13 +8,12 @@ import (
 	"fmt"
 	"log"
 
-	"entdemo/ent/migrate"
-
-	"entdemo/ent/user"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent/migrate"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent/user"
 )
 
 // Client is the client that holds all ent builders.

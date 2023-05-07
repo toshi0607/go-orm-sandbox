@@ -4,14 +4,14 @@ package ent
 
 import (
 	"context"
-	"entdemo/ent/predicate"
-	"entdemo/ent/user"
 	"errors"
 	"fmt"
 	"sync"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent/predicate"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent/user"
 )
 
 const (

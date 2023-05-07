@@ -3,8 +3,8 @@
 package ent
 
 import (
-	"entdemo/ent/schema"
-	"entdemo/ent/user"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent/schema"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent/user"
 )
 
 // The init function reads all schema descriptors with runtime code

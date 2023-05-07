@@ -3,9 +3,8 @@
 package user
 
 import (
-	"entdemo/ent/predicate"
-
 	"entgo.io/ent/dialect/sql"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

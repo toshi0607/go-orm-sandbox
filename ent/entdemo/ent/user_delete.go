@@ -4,12 +4,12 @@ package ent
 
 import (
 	"context"
-	"entdemo/ent/predicate"
-	"entdemo/ent/user"
 
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent/predicate"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent/user"
 )
 
 // UserDelete is the builder for deleting a User entity.

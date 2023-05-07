@@ -3,12 +3,12 @@
 package ent
 
 import (
-	"entdemo/ent/user"
 	"fmt"
 	"strings"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent/user"
 )
 
 // User is the model entity for the User schema.

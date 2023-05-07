@@ -4,8 +4,9 @@ package hook
 
 import (
 	"context"
-	"entdemo/ent"
 	"fmt"
+
+	"github.com/toshi0607/go-orm-sandbox/ent/entdemo/ent"
 )
 
 // The UserFunc type is an adapter to allow the use of ordinary
