@@ -2,7 +2,10 @@ module entdemo
 
 go 1.20
 
-require entgo.io/ent v0.12.3
+require (
+	entgo.io/ent v0.12.3
+	github.com/mattn/go-sqlite3 v1.14.16
+)
 
 require (
 	ariga.io/atlas v0.10.2-0.20230427182402-87a07dfb83bf // indirect
